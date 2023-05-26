@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navigation bar 1</title>
+    <style>
+       body {
+            background-color: rgb(236, 238, 242);
+            /* font-size: 17px; */
+            font-family:Verdana, serif;
+        }
+        ul {
+            list-style-type: none;
+            margin-right: 60px;
+            overflow: hidden;
+            background-color: white;
+            margin-left: 20px;
+        }
+        li {
+            padding: 10px 14px;
+            float: right;
+
+        }
+        li a {
+            text-decoration: none;
+            color: black;
+            display: inline-block;
+
+             }
+
+
+             input[type=text] {
+                  
+                  box-sizing: border-box;
+                  border: 2px solid;
+                  border-radius: 40px;
+                  background-color: white; 
+                  background: url('./search_FILL0_wght400_GRAD0_opsz48.png');
+                  background-size: 25px;
+                  margin-top: -7px;
+                  background-position: 150px 2px; 
+                  background-repeat: no-repeat;
+                  padding: 10px 35px;
+                  font-size: 10px;
+                  position: inherit;
+
+                 
+           }
+#search{
+    position: relative;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <img src="./icon convert.png" alt="logo" width="160px" height="40px">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">PRODUCTS</a></li>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#">CONTACTS</a></li>
+               <li id="search"><input type="text"  placeholder="search here"></li>
+                
+            </ul>
+        </nav>
+    </header>
+    
+</body>
+</html>
