@@ -7,24 +7,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>navigation bar 1</title>
     <style>
-         body{
-            width: 100%;
+         body {
+            background-color: rgb(236, 238, 242);
+            /* font-size: 17px; */
+            font-family:Verdana, serif;
+            width: fit-content;
         }
 ul{
     background-color: white;
-     float: right; 
+     /* float: right;  */
 }
 li{
     display: inline-block;
-    margin: 20px 30px;
+    margin: 30px ;
+    padding: -15px;
+    /* float: right; */
 
 }
 li a{
     color: black;
     text-decoration: none;
     margin: 3px;
-    padding: 3px;
+    /* padding: 3px; */
     align-items: center;
+    float: right;
 }
 .button{
     border-radius: 40px;
@@ -42,12 +48,14 @@ li a{
     <header>
         <nav>
             <ul>
-            <li><img class="icon" src="./icon convert.png" width="50px" height="">PSEIDON</li>
+            <li><img class="icon" src="./poseidpon.png" width="50px" height="">PSEIDON</li>
+               <div style="float:right;">
                 <li><a href="#">HOME</a></li>
                 <li><a href="#">PRODUCTS</a></li>
                 <li><a href="#">ABOUT US</a></li>
                 <li><a href="#">CONTACTS</a></li>
                 <li style="float:right"><input class="button" type="button" value="BUTTON"></input></li>
+                </div>
             </ul>
         </nav>
     </header>
